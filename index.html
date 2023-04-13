@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Game</title>
+  <link media="all" rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="anim-go">
+  <div id="wrapper">
+
+    <div class="console">
+      <div id='nav' class="nav">
+        <div class="button top">
+          <img id="top" src="images/btn.png" alt="image descripion">
+        </div>
+        <div class="button right">
+          <img id="right" src="images/btn.png" alt="image descripion">
+        </div>
+        <div class="button bottom">
+          <img id="bottom" src="images/btn.png" alt="image descripion">
+        </div>
+        <div class="button left">
+          <img id="left" src="images/btn.png" alt="image descripion">
+        </div>
+      </div>
+
+      <div id="screen" class="screen">
+
+        <div id="ship" class="ship">
+          <img src="images/spaceship.png" alt="image descripion">
+        </div>
+
+        <div id="particles" class="particles">
+          <div id="a" class='a'></div>
+          <div id="b" class='b'></div>
+          <div id="c" class='c'></div>
+          <div id="d" class='d'></div>
+          <div id="e" class='e'></div>
+          <div id="f" class='f'></div>
+        </div>
+      </div>
+
+      <div class="result">
+        <p id="result">Result: 0</p>
+      </div>
+
+      <div id="endgame" class="endGame">
+          <h1>GAME OVER</h1>
+          <h2 id="totalResult"></h2>
+      </div>
+
+      <div class="start">
+        <p>START</p>
+        <div id="start" class="start-btn"></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
